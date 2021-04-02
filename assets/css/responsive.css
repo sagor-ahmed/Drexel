@@ -1,0 +1,377 @@
+/*----------------------------------------*/
+/*  RESPONSIVE CSS START 
+/*----------------------------------------*/
+
+/* laptop devices 1200 - 1600 */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    .container {
+        max-width: 1250px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-right ul li {
+        margin-left: 29px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .blog-active .owl-next {
+        right: -12px;
+    }
+
+    .blog-active .owl-prev {
+        right: auto !important;
+        left: -8px;
+        border-right: 0;
+    }
+
+    .facebook-count {
+        margin-right: 9px;
+    }
+
+    .social-row {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .single-slider {
+        height: 430px;
+    }
+
+    .slider-text {
+        padding-left: 40px;
+    }
+
+    .footer-menu {
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-top: 18px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .header-right {
+        margin-right: 90px;
+    }
+
+    .header-right ul li {
+        margin-left: 10px;
+    }
+
+    .facebook-count {
+        margin-right: 5px;
+    }
+
+    .social-row {
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+/* Small devices 576 - 767 */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .slider-text {
+        padding-left: 20px;
+    }
+
+    .single-slider {
+        height: 400px;
+    }
+
+    .slider-text h2 {
+        font-size: 27px;
+    }
+
+    .slider-text p {
+        padding-right: 200px;
+    }
+
+    .product-tab ul li {
+        margin-right: 30px;
+    }
+
+    .product-active-2 .owl-nav div {
+        top: -76px;
+    }
+
+    .product-active-2 .owl-nav::before {
+        top: -71px;
+    }
+
+    .sub-form button {
+        margin-top: 20px;
+    }
+
+    .footer-social {
+        margin-top: 20px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .header-right.text-right {
+        margin-right: 62px;
+    }
+
+    .header-right ul li {
+        margin-left: 8px;
+    }
+
+    /*blog*/
+    .blog-content {
+        padding: 30px 44px;
+    }
+
+    .blog-thumb {
+        padding: 0 20px;
+    }
+
+    .header-right {
+        margin-right: 62px;
+        margin-top: -34px;
+    }
+
+    .header-right ul li {
+        margin-left: 8px;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+
+    .result-count {
+
+        float: none;
+    }
+
+
+    .facebook-count a.f-logo img {
+        width: 46px;
+        height: 20px;
+    }
+
+
+
+    .facebook-count {
+        margin-right: 5px;
+    }
+
+    .social-row {
+        margin-bottom: 50px;
+    }
+
+    .details-nav li a {
+        font-size: 15px;
+    }
+
+    .details-nav .nav-item {
+        padding: 0 10px;
+    }
+
+    .comments h2 {
+        font-size: 12px;
+    }
+    
+.pt-70 {
+	 padding-top: 0px;
+}
+
+ .group {
+	margin-bottom: 64px;
+}   
+    
+}
+
+
+/* Small devices 0 - 575 */
+@media (max-width: 480px) {
+
+    /*slider area*/
+    .slider-text {
+        padding-left: 10px;
+    }
+
+    .single-slider {
+        height: 360px;
+    }
+
+    .slider-text h2 {
+        font-size: 19px;
+    }
+
+    .slider-text p {
+        padding-right: 161px;
+    }
+
+    /*products area */
+
+    .product-tab ul li {
+        margin-right: 25px;
+    }
+
+    .product-tab ul li a {
+        font-size: 13px;
+    }
+
+    product-active-2 .owl-nav::before {
+        content: "";
+        height: 18px;
+        width: 1px;
+        background: #222;
+        position: absolute;
+        right: 63px;
+        top: -36px;
+    }
+
+    .product-active-2 .owl-nav div {
+        top: -40px
+    }
+
+    .product-active-2 .owl-nav::before {
+        top: -35px;
+    }
+
+    .product-tab ul li {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    /*subscribe area*/
+
+    .sub-form button {
+        margin-top: 20px;
+    }
+
+
+    /*footer*/
+
+    .footer-social {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer-menu {
+        text-align: center;
+    }
+
+    .footer-menu ul li {
+        margin-right: 8px;
+    }
+
+    /*blog*/
+    .blog-content {
+        padding: 30px 44px;
+    }
+
+    .blog-thumb {
+        padding: 0 20px;
+    }
+
+    /*mobile menu*/
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .header-right {
+        margin-right: 62px;
+        margin-top: -34px;
+    }
+
+    .header-right ul li {
+        margin-left: 8px;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+
+    .search-btn {
+        display: none;
+    }
+
+    .result-count {
+        float: none;
+    }
+
+    form.ordering {
+        float: none;
+    }
+
+    .toolbar .view-mode label {
+        font-size: 14px;
+        line-height: 35px;
+        padding: 0 3px;
+    }
+
+
+    form.ordering {
+        margin: 0 0 10px 0;
+    }
+
+    .ordering-btn {
+        margin-top: 12px;
+    }
+
+    .r-count.f-right {
+        margin-top: 29px;
+    }
+
+    .shop-list {
+        margin-bottom: 50px;
+    }
+    .comments h2 {
+        font-size: 12px;
+    }
+    
+    .cart-toggler {
+	display: none;
+}
+    
+
+}
